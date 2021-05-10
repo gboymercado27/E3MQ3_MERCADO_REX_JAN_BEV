@@ -1,0 +1,88 @@
+body{
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../src/img/pic1.jpg)
+}
+
+nav .nav-links{
+  display: flex;
+  flex-direction: row;
+  background-image: url(../src/img/pic1.jpg);
+  margin: 0;
+  padding: 0 5rem;
+  height: 100%;
+  list-style: none;
+}
+
+.nav-links li{
+  font-size: 2rem;
+  align-items: center;
+}
+
+.nav-links .user{
+  margin: auto 0 auto auto;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+} 
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  width: 100%;
+}
+
+
+main .welcomee h1{
+  margin: .2rem;
+}
+
+.welcome h1.welcomee{
+  font-size: 80px;
+  color: white;
+}
+
+.title {
+  text-align: center;
+}
+
+ .link {
+   color: white;
+   font-family: Arial;
+   margin: auto 1rem;
+   text-decoration: none;
+ }
+
+
+.about {
+  text-align: center;
+}
+
+
+.student{
+  text-align: center; 
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+}
+
+.welcome p.enter{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+@keyframes glow {
+  from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
